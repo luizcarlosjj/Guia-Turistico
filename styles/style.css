@@ -14,8 +14,48 @@ h2 , p {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+body {
     background-color: #AF8300;
-    width: 100vw;
+}
+
+header {
+    background-color:   #C7AB0A;
+    width: 98.7vw;
     padding: 10px;
+}
+
+#linknav {
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+
+}
+#fotop {
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto; 
+}
+
+#div1  {
+    padding: 20px;
+    margin: 0 auto; 
+    width: 600px;
+}
+
+#div2 {
+    padding: 20px;
+    margin: 0 auto; 
+    width: 600px;
+    height: 600px;
+}
+
+#div2 > p {
+    font-size: 17px;
 }
