@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.home {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.home h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Anuphan', sans-serif;
+
+}
+.home h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Anuphan', sans-serif;
+}
+
+.home p {
+    font-family: 'Karla', sans-serif;
+}
+
+.indice {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.indice1 {
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.indice1 h2 {
+    background-color: bg-warning;
+}
+.indice1 p {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.line {
+    margin: auto;
+    align-items: center;
+    width: 450px;
+    padding: 10px;
+}
+
+.estatisticas {
+    text-align: center;
+    padding-top: 30px;
+}
