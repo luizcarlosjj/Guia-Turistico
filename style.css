@@ -108,3 +108,29 @@
     width: 80%;
     height: 80%;
 }
+
+.saibamais h2 {
+    font-family: 'Oswald';
+    text-align: center;
+    padding-top: 20px;
+}
+
+.saibamais p {
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;  
+}
+
+.saibamais-content {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.button-dw {
+    text-align: center;
+}
