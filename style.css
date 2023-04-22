@@ -67,5 +67,9 @@
 
 .estatisticas {
     text-align: center;
-    padding-top: 30px;
+    padding: 30px;
+}
+
+#tit-estatistica {
+    text-decoration: underline;
 }
