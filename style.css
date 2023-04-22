@@ -134,3 +134,22 @@
 .button-dw {
     text-align: center;
 }
+
+.bibi-main {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.bibi-main h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
