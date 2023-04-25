@@ -49,25 +49,20 @@
 
 #porquedevemos {
     font-family: 'Oswald', sans-serif;
+    padding: 10px;
 }
 
 #preciso {
     font-family: 'Oswald', sans-serif;
+    padding: 10px;
 }
 
 .indice1 p {
-    padding: 10px;
+    padding: 30px;
     width: 80%;
     margin: auto;
     text-align: justify;
     font-family: 'Karla', sans-serif;
-}
-
-.line {
-    margin: auto;
-    align-items: center;
-    width: 450px;
-    padding: 10px;
 }
 
 .estatisticas {
@@ -86,6 +81,8 @@
     margin: auto;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+    margin: 15px;
 }
 
 .cerrado h2 {
@@ -97,7 +94,7 @@
 
 .cerrado p {
     padding: 20px;
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: justify;
     font-family: 'Karla', sans-serif;
@@ -105,8 +102,8 @@
 
 .cerrado-content {
     margin: auto;
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
 }
 
 .saibamais h2 {
