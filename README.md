@@ -12,7 +12,9 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## 📦 Implantação
 
-Implantações usadas: <a href="https://getbootstrap.com/docs/5.3/getting-started/download/">Bootstrap v5.3</a>
+WEB: Implantações usadas: <a href="https://getbootstrap.com/docs/5.3/getting-started/download/">Bootstrap v5.3</a> <br>
+MOBILE: Implantações usadas: <a href="https://appinventor.mit.edu/">MIT App Inventor</a>
+
 
 ## 🛠️ Construído com
 
@@ -31,8 +33,6 @@ Implantações usadas: <a href="https://getbootstrap.com/docs/5.3/getting-starte
 * Version 3.5
 
 ## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 * **Luiz Carlos** - *Trabalho Inicial* - [luizcarlosjj](https://github.com/luizcarlosjj)
 * **Bruno Barros** - *Trabalho secundário* - [BrunoKunSama](https://github.com/BrunoKunSama)
