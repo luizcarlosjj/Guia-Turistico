@@ -94,7 +94,7 @@
 
 .cerrado p {
     padding: 20px;
-    width: 60%;
+    width: 80%;
     margin: auto;
     text-align: justify;
     font-family: 'Karla', sans-serif;
@@ -102,8 +102,8 @@
 
 .cerrado-content {
     margin: auto;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
 }
 
 .saibamais h2 {
@@ -144,9 +144,4 @@
     font-size: 30px;
     text-decoration: underline;
     font-family: 'Oswald', sans-serif; 
-}
-
-.content {
-    width: 80%;
-    margin: auto;
 }
