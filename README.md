@@ -28,7 +28,7 @@ Implantações usadas: <a href="https://getbootstrap.com/docs/5.3/getting-starte
 
 ## 📌 Versão
 
-* Version 3.3
+* Version 3.5
 
 ## ✒️ Autores
 
