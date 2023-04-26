@@ -68,6 +68,7 @@
 .estatisticas {
     text-align: center;
     padding: 30px;
+    align-items: center;
 }
 
 #tit-estatistica {
@@ -144,4 +145,8 @@
     font-size: 30px;
     text-decoration: underline;
     font-family: 'Oswald', sans-serif; 
+}
+
+.image-icone {
+    margin: 5px;
 }
