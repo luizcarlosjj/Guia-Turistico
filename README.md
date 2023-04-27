@@ -30,7 +30,7 @@ MOBILE: Implantações usadas: <a href="https://appinventor.mit.edu/">MIT App In
 
 ## 📌 Versão
 
-* Version 3.5
+* Version 4.0
 
 ## ✒️ Autores
 
