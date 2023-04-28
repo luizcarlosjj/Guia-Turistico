@@ -193,6 +193,22 @@
 .curiosidades h2 {
     font-family: 'Oswald';
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 
+}
+
+.trilhas{
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.trilhas h2 {
+    font-family: 'Oswald';
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
 }
