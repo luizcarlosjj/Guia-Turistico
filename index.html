@@ -133,6 +133,7 @@
               <div class="carousel-item">
                 <img src="src/cerrado2.jpg" class="d-block w-100" alt="..."> <!--Imagem 2-->
               </div>
+              
             <!--Button preview e next -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -156,24 +157,100 @@
       <div class="d-flex p-2 bg-warning"></div>
       <!-- INICIO DO INDICE 5: -->
       <main class="saibamais bg-warning" id="saibamais">
-        <h2>Qual a ligação entre Nosso Trabalho de Preservação com o Cerrado ?</h2>
-        <p>Como o Cerrado é principal bioma do estado de Goiás e do Centro-Oeste decidimos utilizalo como base para alertar do seu estado atual de preservação e assim conscientizar os leitores para obtermos melhorias em nosso bioma natural que é base do nosso querido Estado de Goiás! Apresentando dados estatísticos, fotos atuais e formas de preservar o Cerrado. <br> <font style="font-weight: bolder; font-size: 25px; text-align: center; text-decoration: underline; padding: 5px;"> Além disso preparamos um APP onde você pode:</font>
-          <div class="saibamais-content">
-            <!--LISTA DE GRUPOS SEM BORDA:-->
-            <ul class="list-group list-group-flush bg-warning">
-              <li class="list-group-item bg-warning"><b>ACOMPANHAR PONTOS TURISTICOS</b></li>
-              <li class="list-group-item bg-warning"><b>PLANEJAR TRILHAS</b></li>
-              <li class="list-group-item bg-warning"><b>VER CURIOSIDADES SOBRE O CERRADO</b></li>
-            </ul>
-          </div> 
-        </p>
-        <h2 id="btn-dw">Tem interesse em baixar o APP? </h2>
-        <!--inicio do p-->
-        <P> <font style="font-size: 20px; font-weight: bolder;"> 
-          Clique no botão abaixo e faça o download <br>
-          <!-- ICONE SETA -->
+
+        <div class="curiosidades">
+          <h2> Curiosidades que você deveria saber sobre o cerrado!</h2>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="card" style="width: 20rem; height: 35rem">
+                  <img src="src/cerrado-vegetacao.jpg" class="card-img-top"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">1. É o segundo maior bioma brasileiro</h5>
+                    <p class="card-text">Perdendo apenas para a Amazônia, o Cerrado ocupa uma área de mais de 2 milhões de km2, correspondendo a cerca de 25% do território nacional. Não só é o segundo maior conjunto ecossistêmico do Brasil, como também de toda a América do Sul.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem; height: 35rem;">
+                  <img src="src/@combuca-87.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">2. Considerado o "berço das águas"</h5>
+                    <p class="card-text">No domínio do Cerrado nascem os rios que vão formar as principais bacias hidrográficas do país. São eles: Parnaíba, Paraguai, Paraná, Tocantins-Araguaia, São Francisco e Amazônica.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem; height: 35rem">
+                  <img src="src/cerrado1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">3. Savana mais rica em Biodiversidade</h5>
+                    <p class="card-text">O Cerrado é considerado um hotspot mundial - área que abriga grande diversidade biológica e espécies endêmicas, ou seja, que não são encontradas em nenhum outro lugar do mundo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2>Pincipais Pontos Turísticos:</h2>
+          <div class="container text-center">
+            <div class="row align-items-center">
+
+              <div class="col">
+                <div class="card bg-dark"  style="width: 15rem; height: 20rem;">
+                  <div class="card-body text-light">
+                    <h5 class="card-title">Vale da Lua</h5>
+                    <p class="card-text"> A paisagem tem inúmeras formações rochosas e lembra, literalmente, uma superfície lunar. </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Ver fotos 
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header text-dark">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h2 class="fs-5">Popover in a modal</h2>
+                            <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                            <hr>
+                            <h2 class="fs-5">Tooltips in a modal</h2>
+                            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!--SLIDE 2 -->
+
+        <h2 id="btn-dw">Tem interesse em saber mais e acompanhar o cerrado de perto? </h2>
+        <P> <font style="font-size: 20px; font-weight: bolder;"> Clique no botão abaixo e faça o download do nosso APP e veja sobre:<br> </P>
+
+        <div class="saibamais-content">
+          <!--LISTA DE GRUPOS SEM BORDA:-->
+          <ul class="list-group list-group-flush bg-warning">
+            <li class="list-group-item bg-warning"><b> VEJA PONTOS TURISTICOS</b></li>
+            <li class="list-group-item bg-warning"><b> PLANEJE TRILHAS</b></li>
+            <li class="list-group-item bg-warning"><b> ACOMPANHE O CERRADO DE PERTO</b></li>
+          </ul>
           <img src="src/seta-down.svg" alt="seta-butao" width="30px"></font>
-        </P>
+        </div> 
+        
         <!--DIV ORGANIZACIONAL DO BUTTON-->
         <div class="button-dw">
           <!--button link-->
