@@ -12,7 +12,7 @@
 </head>
 <body>
   <!-- Inicio do Menu responsivo: -->
-    <nav class="navbar navbar-expand-lg bg-warning">
+      <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
           <!--Logo e título:-->
           <img class="logo" src="src/logo.png" alt="logo" width="80px">
@@ -26,11 +26,22 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sobre-tbr">Sobre o trabalho</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#saibamais">Aplicativo</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Índice 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#sobre-tbr">Sobre o trabalho</a></li>
+                  <li><a class="dropdown-item" href="#porquedevemos">Porque devemos preservar o meio ambiente?</a></li>
+                  <li><a class="dropdown-item" href="#preciso">O que é preciso para a preservação do meio ambiente?</a></li>
+                  <li><a class="dropdown-item" href="#tit-estatistica">Estatísticas atuais</a></li>
+                  <li><a class="dropdown-item" href="#cerrado">Como está o desmatamento no Cerrado?</a></li>
+                  <li><a class="dropdown-item" href="#curiosidades">Curiosidades</a></li>
+                  <li><a class="dropdown-item" href="#tit-pt">Pontos Turísticos</a></li>
+                  <li><a class="dropdown-item" href="#trilhas">Trilhas</a></li>
+                  <li><a class="dropdown-item" href="#btn-dw">Aplicativo</a></li>
+
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="bibliografia.html">Bibliografia</a>
@@ -44,21 +55,24 @@
       </nav>
       <!-- INICIO DO CONTEUDO - RESUMO -->
       <main class="home">
-        <h1>GUIA TURÍSTICO DE GOIÁS</h1>
+        <h1 id="home-title">GUIA TURÍSTICO DE GOIÁS</h1>
         <h2 id="sobre-tbr">Sobre o trabalho:</h2>
         <p>
           O Cerrado é um dos cinco grandes biomas do Brasil, cobrindo cerca de 25% do território nacional e perfazendo uma área entre 1,8 e 2 milhões de km2 nos Estados de Goiás, Tocantins, Mato Grosso do Sul, sul do Mato Grosso, oeste de Minas Gerais, Distrito Federal, oeste da Bahia, sul do Maranhão, oeste do Piauí e porções do Estado de São Paulo. Ainda há porções de cerrado em outros estados da federação (PR) ou em áreas disjuntas dentro de outros biomas (Floresta Amazônica). É a segunda maior formação vegetal do país, após a Floresta Amazônica, concentrando-se principalmente no Planalto Central Brasileiro.
         </p>
       </main>
       <!-- LISTA DO INDICE -->
-      <main class="indice">
+      <main class="indice" id="indice">
         <h4>Indíce:</h4>
         <ul class="list-group">
           <li class="list-group-item"><a href="#porquedevemos">Porque devemos preservar o meio ambiente?</a></li>
           <li class="list-group-item"><a href="#preciso">O que é preciso para a preservação do meio ambiente?</a></li>
           <li class="list-group-item"><a href="#tit-estatistica">Estatísticas atuais</a></li>
           <li class="list-group-item"><a href="#cerrado">Como está o desmatamento no Cerrado?</a></li>
-          <li class="list-group-item"><a href="#saibamais">Saiba Mais</a></li>
+          <li class="list-group-item"><a href="#curiosidades">Curiosidades</a></li>
+          <li class="list-group-item"><a href="#tit-pt">Pontos Turísticos</a></li>
+          <li class="list-group-item"><a href="#trilhas">Trilhas</a></li>
+          <li class="list-group-item"><a href="#btn-dw">Saiba Mais</a></li>
         </ul>
       </main>
       <!-- INICIO DO INDICE 1: -->
@@ -158,7 +172,7 @@
       <!-- INICIO DO INDICE 5: -->
       <main class="saibamais bg-warning" id="saibamais">
 
-        <div class="curiosidades">
+        <div class="curiosidades" id="curiosidades">
           <h2> Curiosidades que você deveria saber sobre o cerrado!</h2>
           <div class="container text-center">
             <div class="row align-items-center">
@@ -203,7 +217,7 @@
           </p>
       
         </div>
-        <main class="bg-light trilhas">
+        <main class="bg-light trilhas" id="trilhas">
           <h2> Melhores Trilhas de Goiás! </h2>
           <iframe align="center" width="860" height="515" src="https://www.tripadvisor.com.br/Attractions-g303323-Activities-c61-t87-State_of_Goias.html" frameborder="0"></iframe>
         </main>
@@ -234,27 +248,35 @@
       <footer class="bg-dark text-center text-white rodape">
         <!-- Grid container -->
         <div class="ctt-footer">
-          <h3 style="padding: 15px;">Contatos</h3>
-          <p>GTG GROUP - <a href="mailto:cybertech.inovation@gmail.com">Email de Contato</a> <img src="src/envelope-solid.svg" width="20px" alt="email"></p>
-          <p>Telefone: <a href="https://wa.me/5562986432931">62986432931</a> <img src="src/whatsapp.svg" width="20px" alt="whatsapp"></p>
-          <p>Código Fonte: <a target="_blank" href="https://github.com/luizcarlosjj/aps-web">Github.com</a> <img src="src/github.svg" width="20px" alt="github"></p>
+          <h3 class="link-warning text-warning" style="padding: 15px;">Contatos</h3>
+          <p>GTG GROUP - 
+            <a class="link-warning text-warning" href="mailto:cybertech.inovation@gmail.com">Email de Contato</a> 
+            <img src="src/envelope-solid.svg" width="20px" alt="email">
+          </p>
+
+          <p>Telefone: 
+            <a class="link-warning text-warning" href="https://wa.me/5562986432931">62986432931</a> 
+            <img src="src/whatsapp.svg" width="20px" alt="whatsapp">
+          </p>
+
+          <p>Código Fonte: 
+            <a class="link-warning text-warning" target="_blank" href="https://github.com/luizcarlosjj/aps-web">Github.com</a> 
+            <img src="src/github.svg" width="20px" alt="github">
+          </p>
         </div>
 
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active link-warning text-warning" aria-current="page" href="#home-title">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sobre-tbr">Sobre o trabalho</a>
+            <a class="nav-link link-warning text-warning" href="#indice">índice</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#saibamais">Aplicativo</a>
+            <a class="nav-link link-warning text-warning" href="bibliografia.html">Bibliografia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="bibliografia.html">Bibliografia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contatos.html">Contatos</a>
+            <a class="nav-link link-warning text-warning" href="contatos.html">Contatos</a>
           </li>
         </ul>
         <!-- Copyright -->
