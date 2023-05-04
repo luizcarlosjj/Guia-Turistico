@@ -30,14 +30,14 @@ MOBILE: Implantações usadas: <a href="https://appinventor.mit.edu/">MIT App In
 
 ## 📌 Versão
 
-* Version 5.5.0
+* Version 6
 
 ## ✒️ Autores
 
-* **Luiz Carlos** - *Trabalho Inicial* - [luizcarlosjj](https://github.com/luizcarlosjj)
-* **Bruno Barros** - *Trabalho secundário* - [BrunoKunSama](https://github.com/BrunoKunSama)
-* **Stefani** - *Documentação* 
-* **Thais** - *Documentação* 
+* **Luiz Carlos Junior Barros** - *Trabalho Inicial* - [luizcarlosjj](https://github.com/luizcarlosjj)
+* **Bruno Barros De Brito** - *Trabalho secundário* - [BrunoKunSama](https://github.com/BrunoKunSama)
+* **Stéfany Brito Silva** - *Documentação* 
+* **Thaís Pereira Silva** - *Documentação* 
 
 ## 📄 Licença
 
